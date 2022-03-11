@@ -1,0 +1,28 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "cSpell.diagnosticLevel": "Hint",
+    "editorHint.foreground": "#f000",
+
+    //VS Code will always use the version selected within the project for all IDE tooling
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+
+    // Remove .fvm files from search
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    }, 
+
+    "workbench.colorCustomizations": {
+
+        // will change the color of three dots to red
+        "editorHint.foreground": "#f000",
+      
+        // will underline the entire word with dots in your chosen color
+        "editorHint.border": "#00ff66"
+        
+    }
+}
