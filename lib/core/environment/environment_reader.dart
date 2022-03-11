@@ -30,4 +30,9 @@ abstract class ConfigReader {
     }    
     
   }
+
+  // get the base url value from the config file
+  static String getBaseUrl() {
+    return _config?['base_api_url'] as String;
+  }
 }
